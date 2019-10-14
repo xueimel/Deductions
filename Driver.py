@@ -64,8 +64,7 @@ class Driver:
                     del d.employees[emp]
                     print(emp, "has been removed")
                 else:
-                    str(input("Sorry, I was unable to locate that employee. Would you \
-                    like to try agian? (yes/no)"))
+                    str(input("Sorry, I was unable to locate that employee. Would you like to try agian? (yes/no)"))
 
         def all_total(self):
             print("total for all employees: ", self.calc.calc_all_weekly(self.employees))
